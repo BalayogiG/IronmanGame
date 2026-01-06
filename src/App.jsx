@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import ironmanImg from "./assets/ironman_player.png";
+import ironmanImg from "./ironman_player.png";
 
 // --- Constants (1.5x Overclocked) ---
 const MOVE_SPEED = 9;
