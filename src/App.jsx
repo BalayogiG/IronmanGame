@@ -286,7 +286,7 @@ export default function App() {
         <div className="absolute inset-0 bg-red-950/40 backdrop-blur-md flex items-center justify-center z-50">
           <div className="bg-[#020617] p-16 border-t-4 border-b-4 text-center shadow-2xl max-w-lg w-full" style={{ borderColor: currentTheme.accent }}>
             <p className="text-red-500 text-xs font-bold tracking-[0.6em] uppercase mb-6">Visual Feed Lost</p>
-            <h3 className="text-5xl font-black text-white mb-4">REBOOT_REQUIRED</h3>
+            <h3 className="text-3xl font-black text-white mb-4">REBOOT_REQUIRED</h3>
             <div className="text-8xl font-black text-white mb-12 py-6 border-y border-white/10">{score}</div>
             <button 
                 onClick={startGame}
