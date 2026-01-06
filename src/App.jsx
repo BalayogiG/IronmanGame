@@ -272,6 +272,7 @@ export default function App() {
           </div>
           <h1 className="text-8xl font-black text-white italic tracking-tighter mb-4">IRONMAN GAME</h1>
           <p className="text-sky-400 font-bold mb-20 text-xs uppercase tracking-[0.8em] opacity-80">Full Visual Integration: Active</p>
+          <p className="text-sky-400 font-bold mb-20 text-xs uppercase tracking-[0.8em] opacity-80">Use Arrow keys to move</p>
           <button 
             onClick={startGame}
             className="bg-red-600 text-white px-24 py-6 font-black text-3xl transition-all hover:bg-red-500 hover:scale-105 active:scale-95 shadow-[0_0_50px_rgba(220,38,38,0.5)]"
